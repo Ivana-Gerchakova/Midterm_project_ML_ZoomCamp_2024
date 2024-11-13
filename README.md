@@ -15,6 +15,6 @@ Airbnb prices can vary significantly based on various factors like location, roo
 
 - **Source**: [Kaggle - New York City Airbnb dataset](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data)
 
-- **Description**: This dataset includes detailed information about Airbnb listings in New York City, featuring attributes
+- **Description**: This dataset includes detailed information about Airbnb listings in New York City, featuring attributes.
 
 - **Instructions**: Download the dataset directly from Kaggle using the provided link or follow instructions within this repository for loading the data.
