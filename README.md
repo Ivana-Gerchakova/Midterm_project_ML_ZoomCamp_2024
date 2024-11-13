@@ -3,7 +3,8 @@
 <img src="images/zoomcamp.jpg" />
 
 ## Project Overview: 
-This project analyzes the New York City Airbnb dataset and builds a machine learning model to predict rental prices. Completed as part of the ML Zoomcamp course from DataTalksClub, the project includes detailed steps in data preparation, exploratory data analysis (EDA), model training (including neural networks), model tuning, deployment, and reproducibility, aligned with project requirements.
+This project analyzes the New York City Airbnb dataset and builds a Machine Learning model to predict rental prices. Completed as part of the ML Zoomcamp course from DataTalksClub. 
+The project includes detailed steps in data preparation, exploratory data analysis (EDA), model training (including neural networks), model tuning, deployment, and reproducibility, aligned with project requirements.
 
 <img src="images/dataset-cover.jpg" />
 
