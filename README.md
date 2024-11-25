@@ -204,17 +204,6 @@ Ensure the trained model is saved as `final_model.pkl`. You can save the model u
 import pickle
 pickle.dump(model, open("final_model.pkl", "wb"))
 
-#### 2. Install Dependencies
-Ensure all required libraries are installed. Use the following command:
-```python
-pip install flask pandas
 
-### Google Colab Deployment
-
-For use Google Colab, follow these steps:
-
-1. **Install the flask-ngrok library**:
-   ```bash
-   pip install flask-ngrok
 
 
