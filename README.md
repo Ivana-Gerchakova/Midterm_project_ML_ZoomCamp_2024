@@ -184,3 +184,37 @@ The project has been designed to ensure full reproducibility. All requirements h
 - **Reproducible Workflow:** Detailed instructions are provided to run all scripts step-by-step, allowing anyone to replicate the results without issues.
 
 This ensures the project is fully reproducible and adheres to the required standards.
+
+## Model Deployment
+
+The project includes the deployment of the trained model as a REST API using the **Flask** framework. This deployment allows users to send input data via a POST request and receive predictions in real time.
+
+### Deployment Details
+- **Framework**: Flask
+- **Environment**: Developed in **Google Colab**, but the setup can be replicated locally or in a cloud environment.
+- **Endpoint**: `/predict`
+- **Input Format**: JSON
+- **Output Format**: JSON containing the model's predictions.
+
+### How to Run the Deployment
+
+#### 1. Save the Trained Model
+Ensure the trained model is saved as `final_model.pkl`. You can save the model using the following code:
+```python
+import pickle
+pickle.dump(model, open("final_model.pkl", "wb"))
+
+#### 2. Install Dependencies
+Ensure all required libraries are installed. Use the following command:
+```python
+pip install flask pandas
+
+### Google Colab Deployment
+
+For use Google Colab, follow these steps:
+
+1. **Install the flask-ngrok library**:
+   ```bash
+   pip install flask-ngrok
+
+
