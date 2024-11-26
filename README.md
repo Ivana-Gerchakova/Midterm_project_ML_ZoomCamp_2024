@@ -196,14 +196,25 @@ The project includes the deployment of the trained model as a REST API using the
 - **Input Format**: JSON
 - **Output Format**: JSON containing the model's predictions.
 
-### How to Run the Deployment
+### Google Colab Deployment
 
-### 1. Save the Trained Model
+To use Google Colab, follow these steps:
 
-### 1. Save the Trained Model
+1. **Install the flask-ngrok library**:
+   ```bash
+   pip install flask-ngrok
+   pip install flask
 
-Ensure the trained model is saved as `final_model.pkl`. You can save the model using the following code:
-```python
-import pickle
-pickle.dump(model, open("final_model.pkl", "wb"))
+## Dependency and Environment Management
 
+This project was developed in **Google Colab**, where the dependencies were automatically managed using the 
+`!pip freeze > requirements.txt` command. 
+This ensures that all the required libraries and their versions are captured and can be installed in other environments.
+
+### Steps to Set Up Dependencies
+
+1.  In Google Colab, the following command was used to create the
+   `requirements.txt` file, listing all the libraries and versions used in the environment:
+   ```bash
+   ! pip freeze > requirements.txt
+ 
