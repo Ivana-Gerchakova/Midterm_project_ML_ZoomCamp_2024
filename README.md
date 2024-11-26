@@ -207,14 +207,24 @@ To use Google Colab, follow these steps:
 
 ## Dependency and Environment Management
 
-This project was developed in **Google Colab**, where the dependencies were automatically managed using the 
-`!pip freeze > requirements.txt` command. 
-This ensures that all the required libraries and their versions are captured and can be installed in other environments.
+To set up the required dependencies for this project, follow these steps:
 
-### Steps to Set Up Dependencies
+`!pip freeze > requirements.txt` 
 
-1.  In Google Colab, the following command was used to create the
-   `requirements.txt` file, listing all the libraries and versions used in the environment:
-   ```bash
-   ! pip freeze > requirements.txt
- 
+The requirements.txt file for this project includes the following dependencies:
+
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.2
+matplotlib==3.8.0
+seaborn==0.13.2
+xgboost==2.1.2
+
+
+
+
+
+
+
+
+
