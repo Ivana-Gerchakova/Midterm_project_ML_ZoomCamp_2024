@@ -211,20 +211,17 @@ To set up the required dependencies for this project, follow these steps:
 
 `!pip freeze > requirements.txt` 
 
-The requirements.txt file for this project includes the following dependencies:
+`pandas==2.2.2`
 
-pandas==2.2.2
-numpy==1.26.4
-scikit-learn==1.5.2
-matplotlib==3.8.0
-seaborn==0.13.2
-xgboost==2.1.2
+`numpy==1.26.4`
 
+`scikit-learn==1.5.2`
 
+`matplotlib==3.8.0`
 
+`seaborn==0.13.2`
 
-
-
+`xgboost==2.1.2`
 
 
 
