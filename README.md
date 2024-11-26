@@ -246,5 +246,17 @@ A `Dockerfile` is included in the project, which specifies the dependencies and 
 
 `xgboost==2.1.2`
 
+### Final Conclusion
 
+This project successfully demonstrates the application of machine learning techniques to predict Airbnb rental prices in New York City. By leveraging a detailed exploratory data analysis (EDA) process and testing multiple models, the following milestones were achieved:
 
+- **Data Preparation and Analysis:** The dataset was cleaned, missing values were imputed, and important features were analyzed. Key insights, such as the influence of location and room type on pricing, were identified.
+- **Model Training and Evaluation:** Multiple models, including Linear Regression, Decision Tree, Random Forest, Gradient Boosting, XGBoost, and a neural network, were trained and evaluated. After extensive testing, **XGBoost** was selected as the final model due to its superior performance metrics.
+- **Reproducibility and Deployment:** The project adheres to best practices for reproducibility by providing modularized scripts and detailed instructions. The final model was deployed as a REST API using Flask, allowing for real-time predictions.
+- **Containerization:** A Dockerfile was created to ensure a portable and consistent environment for running the application.
+
+#### Use Cases
+This model can be used by:
+1. Airbnb hosts to set competitive prices based on historical data and trends.
+2. Customers to identify cost-effective accommodation options.
+3. Researchers or businesses to gain insights into factors influencing Airbnb pricing.
