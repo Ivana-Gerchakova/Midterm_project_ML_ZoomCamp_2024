@@ -198,11 +198,20 @@ The project includes the deployment of the trained model as a REST API using the
 
 ### How to Run the Deployment
 
-#### 1. Save the Trained Model
+### 1. Save the Trained Model
+
+### 1. Save the Trained Model
+
 Ensure the trained model is saved as `final_model.pkl`. You can save the model using the following code:
 ```python
 import pickle
 pickle.dump(model, open("final_model.pkl", "wb"))
+
+
+
+
+
+
 
 
 
