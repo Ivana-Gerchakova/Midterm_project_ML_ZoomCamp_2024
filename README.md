@@ -221,6 +221,29 @@ To set up the required dependencies for this project, follow these steps:
 
 `seaborn==0.13.2`
 
+### Containerization
+
+This project includes containerization using Docker to ensure a consistent and portable environment for running the application. 
+
+#### 1. **Dockerfile**
+A `Dockerfile` is included in the project, which specifies the dependencies and environment setup. The `requirements-Docker.txt` file contains the following dependencies:
+
+`pandas==1.3.3`
+
+`numpy==1.21.2`
+
+`scikit-learn==0.24.2`
+
+`xgboost==1.4.2`
+
+`prettytable==2.4.0`
+
+`matplotlib==3.4.3`
+
+`seaborn==0.11.2`
+
+`tensorflow==2.6.0`
+
 `xgboost==2.1.2`
 
 
